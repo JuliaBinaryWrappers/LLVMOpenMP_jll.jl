@@ -1,0 +1,288 @@
+[[LLVMOpenMP]]
+arch = "aarch64"
+git-tree-sha1 = "4c82191e788ba787d5d9ed19632b8ad66e61b3ee"
+os = "macos"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "d3a9c2aa9c655013404ce59fb3fb2f4b3c15664e75124afddc5c33161935f53c"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.aarch64-apple-darwin.tar.gz"
+[[LLVMOpenMP]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cf1faf1d1bb2c72321d59310a588a3c1ffab1168"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "8ef9824323d85576f7cc0c6e97843f9eb941e0919c0a72160e6dfac185869e05"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.aarch64-linux-gnu-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "810210feda052941e33d9884192cc51a34af04cb"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "90f239d3e81e72031ee876b18bc32d0ce85e215e18357f7356e93310117b1983"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.aarch64-linux-gnu-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "82e3a7930b4825bee79422a8ed2df149f01ceafe"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "902da02dbb2830dfea5f8eae7bb384d7c5c69337534e6f3cfc46bdbfcdcabd4f"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.aarch64-linux-musl-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "09606fc5168433c3d9f61e30567598e67b460a0e"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "1ccf381183dbccfdd84dedf5aa6dfa2b4387394086bf1c199f1d5d82a093bb47"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.aarch64-linux-musl-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e3039aaf5b75e4ecc6de4e50a15afd4c20ed3624"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "df7e7ae7217d89837bd7dc4d48ec5f7e0cadde6f4834d8dc6746dc8f540bddaa"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "385f8197fc38d714954e687f637001eda2006ff4"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "96c770efdbfe08bcc4de25542eeecf4827559801c62e79b00a38ac21ad6899b5"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "da65ceb2ef43914720d84d97219adea3a8781009"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "5b041842ee1b033797b1d4cc8486c0e3d279eb629c73b1e66f7007a034126e57"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9ae49fad86ba209e42753143d8df5174f7887f34"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "2bd25f22dbf3c2af9899f3dc16033c2a04dacab4ce6156c322aff3d86a91e4d4"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a8236e72c98d02c17a1aea938ab7e38dc3adeb21"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "73c3fd2506dc4a4da28dfeb6d24f18564924ef8b1dd56a4713566e9fbf8e099e"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "8746fe6de831e0df79a377d166251605841608dc"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "79d2b120bb070a9c8629d17b8623f6461d731a954db6d1615249d43ba286aa7b"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c50b13169f5fe54d60b2e2323c2d3b17aeab6ded"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "bbed8091feb5fd9d53fa38536a61c56cf663b1cbd87d2aa5b88ae1863e72c39d"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d39e143152fbbe26894cd01ff5e70cd4e4fa5eeb"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "ae03746546498670ce7957c3ed6fe73878028f5225c85284b23bd21c897c505c"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b71c470cf75212273956c58b62f049a8eb28145e"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "d3f2b85e40ec7763f861cc36dca44beb8b545c9188be25b7122b801325230b5c"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.i686-linux-gnu-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9c100fa3e65e8fc57fa7a8eef8433b9f313f0922"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "b77f0217ebb888c7648bf817fa63efefb415a9dc8e271b83a89ff0b573e94774"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.i686-linux-gnu-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8547b7edf98b6325dfa9294d724a2ecbb86c8e33"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "0d19bd718b0b989155b0f0f9c059c4d20d5e7eda74be612b0d30f29fe9875b46"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.i686-linux-musl-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0b309ec11f2cddb76a4d2e10b4f41dc65246d5c5"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "46ede5ca1c4a246434b45dab6d01300472dd4a131ee7748790ae16eaca64d8fa"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.i686-linux-musl-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c7847864eee76763125b852a4cdf7780a87d8ddb"
+os = "windows"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "954d7b34ee13acea0522ef919faac7514c641a7215d0cd7e82bd2d611e161f92"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.i686-w64-mingw32-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4d48dd7a9324a9f956434969c9103f1d8feb43ec"
+os = "windows"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "4eb9a21d39c8412467bf7f1966151b8ef725bdcc4325cdec418bd820fb654af0"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.i686-w64-mingw32-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bbb5c09f153f388804e86062ea6a405b63bb0551"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "ac275c375608d468e904663e529f7e561d375adf1d0249f69e8988bdf99aa244"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4983fd37fda7dcd337ef28dcf96f1bfd21974c19"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "abf08be7f32749079284ea68b162cae3b899105f1c8407a9fbad6e54dd225d16"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+git-tree-sha1 = "65bd04ab61429a5788051565f6741ab8399c4e66"
+os = "macos"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "b3b7aeff95422264ccdd66a5d34baf08881b6d20ca009ae011ffb5e7dc9d1926"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-apple-darwin.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "8b415a4e24d3c5b04dd7948cc3b0fd2f0953dfa0"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "d27f811b41614b8514aa67ee393b56056f19d2dd098656ebd33fea1c71e25999"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-linux-gnu-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c84cc3ecacf62d63b3a348deee28c1f134e12fd8"
+libc = "glibc"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "7113287655f2f9de88ad5973b3f16281491e9197c2a95ef2958c60db309f08bc"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-linux-gnu-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "26d1731ac08a65f8f21a7fc91f371a40b924e457"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "d7580cfda868e0cdd45c91d62d6650570ccf5fa59fb6b52ecd658531d26612bb"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-linux-musl-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c5f42ea03bd706acb6f9b6a117ea96508e8ffb32"
+libc = "musl"
+os = "linux"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "ea9d1c8e4422d41392387e367394f25464838011bc2d5ac1cb876c8840d04855"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-linux-musl-cxx11.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+git-tree-sha1 = "53a73d5c1582b43d3712480f2cc0472ca803cc72"
+os = "freebsd"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "6ff6421dce7ea4a6cb0157c1c9a382118b433330880d22cca8764c91efdf6b0f"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-unknown-freebsd.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "97e2e0aa452a4d6912897d08dd278046fd46aa41"
+os = "windows"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "1d015420871ddbd5ae8af472149359581d1e69b734043f6b23b710f8b778e2f0"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-w64-mingw32-cxx03.tar.gz"
+[[LLVMOpenMP]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a36e099e5988d98f728db57454e1ec31a9d22d53"
+os = "windows"
+
+    [[LLVMOpenMP.download]]
+    sha256 = "2dc039835cecd5e9fd5331f1be641e54e1282d36f6aa8df456b274961f13cf22"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v12.0.1+0/LLVMOpenMP.v12.0.1.x86_64-w64-mingw32-cxx11.tar.gz"
