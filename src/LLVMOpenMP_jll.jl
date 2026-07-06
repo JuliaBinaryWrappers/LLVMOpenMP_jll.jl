@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("LLVMOpenMP")
-JLLWrappers.@generate_main_file("LLVMOpenMP", UUID("1d63c593-3942-5779-bab2-d838dc0a180e"))
+JLLWrappers.@generate_main_file("LLVMOpenMP", Base.UUID("1d63c593-3942-5779-bab2-d838dc0a180e"))
 end  # module LLVMOpenMP_jll

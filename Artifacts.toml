@@ -1,316 +1,174 @@
 [[LLVMOpenMP]]
 arch = "aarch64"
-git-tree-sha1 = "21209a2ac399ce693d73daf1aa8d670fbc84d70f"
+git-tree-sha1 = "66577feda65f2fcceacafdda531586e5875a6a45"
 os = "macos"
 
     [[LLVMOpenMP.download]]
-    sha256 = "e090a90e2e81eebbece553a3bc259baeb30aa9dc2156e49cda0c370a82fb0061"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.aarch64-apple-darwin.tar.gz"
+    sha256 = "fb9c79710ea5b259e7d799ae7fdad7873d32236592de5b5556d2a7640e5d2a65"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.aarch64-apple-darwin.tar.gz"
 [[LLVMOpenMP]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "6e63ac365aec13758e9d55d21eba81dec95406c4"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5173f15c521ed0dd97b3dc110bf9a9601dd13aa9"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "b9e9e461f4a3fc23ee0fc3d574c5f08e066cc281c72b88ffca8ed1fc13a14d70"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "d070596a56c425eb199ec6f7c746f7d5b5768ce12f7df389c330098ac3b0ac02"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.aarch64-linux-gnu-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f5072076ec5a55a8eff0a45e0ff9a4009f7cd54e"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "f2349be227f48b5bbf63ad761363c9b7ee860811088a21fc52534a1ee060d825"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.aarch64-linux-gnu-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "21f74f35a7e0769b12cbd6547562603ae53d1a0e"
+git-tree-sha1 = "5e2b725147c24c952c8b52e482454c109e3da1f7"
 libc = "musl"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "60c4b6543c2ba36414e2d972b88389ed6f7194a7abd7262a33158fb32631ab78"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "5584224e60b9ccb37c45c2407d3cd78b50592e52bcc35fd56c5299272d948022"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.aarch64-linux-musl-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fa685d63febf84ef9db0e67394808bbc0b919a3f"
-libc = "musl"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "b04ec1432445d80dbe45f25e314ea23859214491375a841fbcbf25f28c181760"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.aarch64-linux-musl-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "aarch64"
-git-tree-sha1 = "8f64eb4f611f8535d0432e3c096bbb5ec837c3e4"
+git-tree-sha1 = "a916e2bc378583677e46e048009700ae8d1994ae"
 os = "freebsd"
 
     [[LLVMOpenMP.download]]
-    sha256 = "59e75a4795581594aa696b74c525022752fd012d9fa677bbbc0ab5b4bcb4d307"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.aarch64-unknown-freebsd.tar.gz"
-[[LLVMOpenMP]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0116f4aff2f767d8a21298e0149e613c52ca6749"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "73491e7d59f21507ff304a9cdfac10d06b60a3d0332305a62c16d3622b08bb3b"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "4c509aedc47a88eef7f7f709b5879def372b22b09bd40a477e47814b589e6cbc"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.aarch64-unknown-freebsd.tar.gz"
 [[LLVMOpenMP]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0116f4aff2f767d8a21298e0149e613c52ca6749"
+git-tree-sha1 = "c62c3bb64fdf96007177907064ec6a5ac5fe264f"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "73491e7d59f21507ff304a9cdfac10d06b60a3d0332305a62c16d3622b08bb3b"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d1437f5b29def4bd5af8614ff571480c99ec56dc"
-libc = "musl"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "ba3d66efc3da6a865b3754675f5fc6288deadedc23875b67497a658114de1bdd"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv6l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "5415372a532763ef62ce9d9295e028bc73f0a514b7e573c514013f271b6ce990"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d1437f5b29def4bd5af8614ff571480c99ec56dc"
+git-tree-sha1 = "a679d056f0e5a59a58e0283d936a3ecacfdcb4c2"
 libc = "musl"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "ba3d66efc3da6a865b3754675f5fc6288deadedc23875b67497a658114de1bdd"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv6l-linux-musleabihf-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "ddbd9e358c9f213670ddd087af0ab3daacc7e1d9"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "97e4a90a337e7c30f4000a136ca63d7d7785ead8067f8c4168c289fc6b3351b1"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "98d2c99889a7c7de6c5634772b81fbf58ff4261d51953d51fa7b6695a8030eb5"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ddbd9e358c9f213670ddd087af0ab3daacc7e1d9"
+git-tree-sha1 = "0b416252db68ab19b77cafbea68a90a94f93c221"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "97e4a90a337e7c30f4000a136ca63d7d7785ead8067f8c4168c289fc6b3351b1"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3416d4f7816834ba83a863d4d04544489f58558c"
-libc = "musl"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "ceacd2b0a981e7edb66f8daf411971f68eb0e16a3861da60b3a5440abf06292c"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "4229da20021c63ff1748ae6639b2c6333c7916c25b05d81c379c675c235f356f"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3416d4f7816834ba83a863d4d04544489f58558c"
+git-tree-sha1 = "88fc8b0301df5c595743bc8280af4febaaf42935"
 libc = "musl"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "ceacd2b0a981e7edb66f8daf411971f68eb0e16a3861da60b3a5440abf06292c"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "de684e8dc6fb28b978a6650b240dbb02729b5e2f302033fe21045725bdd8c3fe"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "f63de2f5e10791d280e70172645447f980b4ccbb"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "026e452deb5f091277343f82a293c6d0169c9853"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "b4a0c3d7c7a3131d71d64d45c555e37982489359fafecbd972cbe64cdf4f63ce"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "28ec973c1fbb10764cf6f63861204b771d6463159675585cb2b41c09c4582499"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.i686-linux-gnu-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "288bb3034d5f7fc83cd701bd405bbe809da178a1"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "316567d4cd664a9d3ef6589733a1af9d6f46bfabb18e9a5d1d4e7cde7eeb906e"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.i686-linux-gnu-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a476344cedf228cf296c2ca7d29a83cc0768ae98"
+git-tree-sha1 = "57b818d4ce9a59cbc7040c50581d4748563ed0a8"
 libc = "musl"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "ebc0fa8f43a48e3643f9447bdce72449491312da77226e53f4daa54e934aa5b1"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "49a4a3b872fa32bf2cbfd3c438176abb69cc3d41a8d4289f812e175dfab963c1"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.i686-linux-musl-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "683f185eccffbf282ff3afd77260e9b796a8709c"
-libc = "musl"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "eef03d5242ca4fbdcb8a3d701657a3f2a9efb8be416cf310c5c4fa3920b4b4ca"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.i686-linux-musl-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "e4667396563373926aa5a15f782fe7c33ddf1fd3"
+git-tree-sha1 = "0f93478108f68c39534529f65727c2d95085d328"
 os = "windows"
 
     [[LLVMOpenMP.download]]
-    sha256 = "ec711b2c4c1054a9eafaf7df871873d7b266f6f154f37b958f8ca82198a83504"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.i686-w64-mingw32-cxx03.tar.gz"
-[[LLVMOpenMP]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "8fb7174142ed8a280465b8c3c04093e0fe0c62de"
-os = "windows"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "3007a3900c13f3eeea8ece6126aafbb31ffac26c200545b598b46c540a3abb37"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.i686-w64-mingw32-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1258c964ea3faf758911f8a4314c0c019fbbd5fd"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "1cafa0d5f2099cdb3b93b97e2ae5e031b905dceb2455e543fb68187f536fd0c8"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "b4f39caf8010da6f3199fe8e4c26fde5344e07728ff7dd9ba9ebd35efe41ef3c"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.i686-w64-mingw32-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "10773ea8996e43f171c18a3914aa728cb52a695c"
+git-tree-sha1 = "3c4379da43b0b6a85feb9b27d7fc83fb64b9ab34"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "4b172bc4b6fec86f160c5b2af7cf540976b09104232c027b3af8816396b9e862"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "riscv64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "64e5f7b5b98ba17cfe56cabec2dfcb812a876588"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "c436a2e708c746836cef9e18166fbc15f3a48d8d7e9dcdf59475e2b2e54329aa"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.riscv64-linux-gnu-cxx03.tar.gz"
+    sha256 = "cd8d1efa17d04bd8b3089fa98ee2088dde0658b5a6a65e980a63a6b53ee8e0fd"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8cf8c2ebe5ee547f44c88866a9e8c0ed3cea0340"
+git-tree-sha1 = "94d81dc5d9054ac2bdfa917f98ce93045c077a81"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "87b22e6c41c4abfa5d1537c58d2290e89587fa20cfefa6e0068f00fe2d92c1dc"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.riscv64-linux-gnu-cxx11.tar.gz"
+    sha256 = "3258160c0b3c621abfcec241a34bd729afd4c800e7b37b7e21d19602c1d561c9"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.riscv64-linux-gnu-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "x86_64"
-git-tree-sha1 = "ec272ef47d175247b2546006c8c62d2b0df42311"
+git-tree-sha1 = "b63fad9d98d0590fed67ad86ff896a89e91e3d4a"
 os = "macos"
 
     [[LLVMOpenMP.download]]
-    sha256 = "2cc0452472eeeb5147774224f76330b3550a51c52f25842cda06d75b74190e8d"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-apple-darwin.tar.gz"
+    sha256 = "7f6a046a004e1a200a645ffc231d198821ab9f90a92a0d99f87aa56e08c870cc"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.x86_64-apple-darwin.tar.gz"
 [[LLVMOpenMP]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "abe5828173a8658ffbd084fc3170b2261978ac34"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "68782c4c40b1a762c3150b76cea3824877d42ae7"
 libc = "glibc"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "abf2da286e2c0acffdd372e0c6f9bb8b6cc93a036d56ca36b30c48185fa7e370"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "24d5cd4389fba1bbe7902c9ad0d6319142f023952bb6cc916934fe633e922d65"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.x86_64-linux-gnu-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "899764f4e46a2e2a6f6351ad5c22e6002d24d294"
-libc = "glibc"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "cde36689ae08a71e3cfd425ce647292a0589dcf3e102e1e4eafa0f6d4b64d35d"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-linux-gnu-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "105192c9ae4626005c1b1faec4f2556a0cd69224"
+git-tree-sha1 = "61cbb4272c6f3b925f08bc54f29d36f882f29f90"
 libc = "musl"
 os = "linux"
 
     [[LLVMOpenMP.download]]
-    sha256 = "686e5c85ba10c8ec940665201770532e3f0eacd418190cb76add008bc44e26fe"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "7b4acec1160544e3f19c74f3f936639f9fb2e006b28a379167646ee79e306ce7"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.x86_64-linux-musl-cxx11.tar.gz"
 [[LLVMOpenMP]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "cbc5e4d386fcda2a76f0c11507db0c121a32fcba"
-libc = "musl"
-os = "linux"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "73c3dc1d4d76436aa90f0fbc90dc028480505c4a8fcabd7ff967bdda074a6d7f"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-linux-musl-cxx11.tar.gz"
-[[LLVMOpenMP]]
-arch = "x86_64"
-git-tree-sha1 = "8c6951928bd072a6f92cef0e5b45ccd99aa85342"
+git-tree-sha1 = "6509c90da4c11f97e56ec07c7e89a6f8449b64fa"
 os = "freebsd"
 
     [[LLVMOpenMP.download]]
-    sha256 = "343e3b28031d1b67845f0688b7c39a748dbf40aeabd404f9aa3a244f30d57317"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-unknown-freebsd.tar.gz"
-[[LLVMOpenMP]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0d0af982e2f362eeb6bb09b4285eebf293222ff7"
-os = "windows"
-
-    [[LLVMOpenMP.download]]
-    sha256 = "f58ab9f47dfd2de472c4de56e65a84c08dd4ade637b13fdd1f395792d8c1ae4b"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "3cd18c077dadf28eb3c63d437299b185f86deb6a541739f807109f77f34fe825"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.x86_64-unknown-freebsd.tar.gz"
 [[LLVMOpenMP]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "bc2b256c0997adf2d6efc939a2d481dbf9c163f9"
+git-tree-sha1 = "d6f0e7e7caf14733f945fca332ad20c097dac93b"
 os = "windows"
 
     [[LLVMOpenMP.download]]
-    sha256 = "760fd57d644f835bd29e77a0ae10f34d50480f29cab0bbe6c568fc0b4c47df03"
-    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v18.1.8+0/LLVMOpenMP.v18.1.8.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "e70afe87ae907cb04af157c595c048db536d104e1528e4405104b778976801f1"
+    url = "https://github.com/JuliaBinaryWrappers/LLVMOpenMP_jll.jl/releases/download/LLVMOpenMP-v19.1.7+0/LLVMOpenMP.v19.1.7.x86_64-w64-mingw32-cxx11.tar.gz"
